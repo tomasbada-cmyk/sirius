@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadace Sirius - Pomáháme měnit osudy dětí</title>
+    <meta name="description"
+        content="Nadace Sirius pomáhá dětem, které neměly v životě štěstí. Zaměřujeme se na systémové změny a preventivní programy.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- SVG Blobs -->
+    <div style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <symbol id="blob-1" viewBox="0 0 200 200">
+                <path fill="currentColor"
+                    d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.1,-19.2,95.8,-5.3C93.5,8.6,82.2,21.5,70.6,32.2C59,42.9,47.1,51.4,34.8,58.6C22.5,65.8,9.8,71.7,-1.8,74.8C-13.4,77.9,-23.9,78.2,-34.7,73.5C-45.5,68.8,-56.6,59.1,-65.4,47.9C-74.2,36.7,-80.7,24,-82.1,10.6C-83.5,-2.8,-79.8,-17,-71.9,-29.2C-64,-41.4,-51.9,-51.6,-39.2,-59.5C-26.5,-67.4,-13.2,-73,-0.6,-72C12,-71 24,-63.4 30.5,-83.6L44.7,-76.4Z"
+                    transform="translate(100 100)" />
+            </symbol>
+            <symbol id="blob-2" viewBox="0 0 200 200">
+                <path fill="currentColor"
+                    d="M41.4,-72C53.7,-64.7,63.6,-53.4,70.9,-40.8C78.2,-28.2,82.9,-14.1,81.3,-0.9C79.7,12.3,71.8,24.6,63.2,35.3C54.6,46,45.3,55.1,34.3,62.3C23.3,69.5,10.6,74.8,-0.7,76C-12,77.2,-24.1,74.3,-34.7,67.5C-45.3,60.7,-54.5,50,-61.8,38.1C-69.1,26.2,-74.5,13.1,-75.1,-0.3C-75.7,-13.7,-71.5,-27.4,-63.3,-38.4C-55.1,-49.4,-42.9,-57.7,-30.8,-65.1C-18.7,-72.5,-6.7,-79,5.7,-88.9L41.4,-72Z"
+                    transform="translate(100 100)" />
+            </symbol>
+        </svg>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">
+                    <span class="logo-text">NADACE SIRIUS</span>
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">O nadaci</a></li>
+                <li><a href="#what-we-do">Co děláme</a></li>
+                <li><a href="#projects">Naše projekty</a></li>
+                <li><a href="#applicants">Pro žadatele</a></li>
+                <li><a href="#contact" class="btn btn-primary btn-sm">Pomáhejte s námi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in-up">Pomáháme měnit <span class="highlight">osudy dětí</span></h1>
+            <p class="hero-subtitle fade-in-up delay-1">
+                Jsme tu pro děti, které neměly v životě štěstí. Naše pomoc je koncepční, dlouhodobá a zaměřená tam, kde
+                je nejvíce potřeba.
+            </p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="#projects" class="btn btn-primary">Naše projekty</a>
+                <a href="#about" class="btn btn-secondary">Zjistit více</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Impact Stats -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item fade-in">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Let pomoci</div>
+            </div>
+            <div class="stat-item fade-in delay-1">
+                <div class="stat-number">300+</div>
+                <div class="stat-label">Podpořených projektů</div>
+            </div>
+            <div class="stat-item fade-in delay-2">
+                <div class="stat-number">50 mil.</div>
+                <div class="stat-label">Rozdělených korun</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section ("Big Picture") -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Systémová změna</h2>
+                <p class="section-lead">Neřešíme jen následky, hledáme příčiny.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Jak pracujeme?</h3>
+                    <p>Nadace Sirius se zaměřuje na <strong>prevenci</strong> a <strong>systémová řešení</strong>.
+                        Spolupracujeme s odborníky, mapujeme terén a hledáme bílá místa v systému péče o ohrožené děti.
+                    </p>
+                    <p>Věříme, že každé dítě si zaslouží vyrůstat v bezpečném a milujícím prostředí. Naše práce je
+                        založena na datech, odbornosti a lidském přístupu.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Spolupráce s odborníky</li>
+                        <li><i class="fas fa-check-circle"></i> Dlouhodobá udržitelnost</li>
+                        <li><i class="fas fa-check-circle"></i> Transparentní financování</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <div class="system-visual-container">
+                        <div class="system-node node-1">
+                            <i class="fas fa-university"></i>
+                            <span>Státní správa</span>
+                        </div>
+                        <div class="system-node node-center">
+                            <i class="fas fa-child"></i>
+                            <span>Dítě</span>
+                        </div>
+                        <div class="system-node node-2">
+                            <i class="fas fa-user-md"></i>
+                            <span>Odborníci</span>
+                        </div>
+                        <div class="system-node node-3">
+                            <i class="fas fa-hands-helping"></i>
+                            <span>Neziskový sektor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Klíčové projekty</h2>
+                <p class="section-lead">Konkrétní kroky k lepší budoucnosti dětí.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="card-image project-1-img"></div>
+                    <div class="card-content">
+                        <h3>Patron dětí</h3>
+                        <p>Přímá a transparentní pomoc konkrétním dětem a rodinám. 100 % darů jde přímo dětem, provoz
+                            hradí nadace.</p>
+                        <a href="#" class="btn-text">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="card-image project-2-img"></div>
+                    <div class="card-content">
+                        <h3>Šance dětem</h3>
+                        <p>Komplexní informační portál pro rodiče a blízké, kteří řeší problémy v rodině nebo ve
+                            výchově.</p>
+                        <a href="#" class="btn-text">Navštívit portál <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card">
+                    <div class="card-image project-3-img"></div>
+                    <div class="card-content">
+                        <h3>Grantová podpora</h3>
+                        <p>Podporujeme inovativní projekty neziskových organizací, které přinášejí nové metody práce s
+                            rodinou.</p>
+                        <a href="#applicants" class="btn-text">Pro žadatele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section (Aktuality) -->
+    <section id="news" class="news-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Aktuality</h2>
+                <p class="section-lead">Co se děje v nadaci a ve světě péče o děti.</p>
+            </div>
+            <div class="news-grid">
+                <!-- News Item 1 -->
+                <article class="news-card">
+                    <div class="news-image news-1-img">
+                        <span class="news-date">15. Únor 2026</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Konference o náhradní péči</h3>
+                        <p>Odborníci diskutovali o budoucnosti pěstounské péče a podpoře rodin. Přinášíme klíčové
+                            výstupy ze setkání.</p>
+                        <a href="#" class="news-link">Číst více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- News Item 2 -->
+                <article class="news-card">
+                    <div class="news-image news-2-img">
+                        <span class="news-date">10. Únor 2026</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Grantová výzva 2026</h3>
+                        <p>Otevíráme nové kolo grantů pro organizace pomáhající ohroženým dětem. Přihlaste své projekty
+                            do 30. března.</p>
+                        <a href="#" class="news-link">Číst více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- News Item 3 -->
+                <article class="news-card">
+                    <div class="news-image news-3-img">
+                        <span class="news-date">2. Únor 2026</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Příběhy úspěchu: Patron</h3>
+                        <p>Jak se daří dětem zapojeným do našeho mentoringového programu? Přečtěte si inspirativní
+                            příběhy.</p>
+                        <a href="#" class="news-link">Číst více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center news-more">
+                <a href="#" class="btn btn-secondary">Všechny aktuality</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container cta-content text-center">
+            <h2>Pomozte nám pomáhat</h2>
+            <p>Váš příspěvek mění životy dětí k lepšímu. Staňte se součástí příběhu Nadace Sirius.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-gold btn-lg">Chci přispět</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Kontaktovat nás</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Nadace Sirius</h4>
+                <p>Pomáháme dětem, které neměly v životě štěstí.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Rychlé odkazy</h4>
+                <ul>
+                    <li><a href="#about">O nás</a></li>
+                    <li><a href="#projects">Projekty</a></li>
+                    <li><a href="#">Výroční zprávy</a></li>
+                    <li><a href="#">Transparentní účet</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Praha 1, Thunovská 12</li>
+                    <li><i class="fas fa-envelope"></i> info@nadacesirius.cz</li>
+                    <li><i class="fas fa-phone"></i> +420 123 456 789</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Nadace Sirius. Všechna práva vyhrazena. | Financováno manžely Šmejcovými.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
